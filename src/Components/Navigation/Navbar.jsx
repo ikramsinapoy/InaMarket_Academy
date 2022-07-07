@@ -68,7 +68,7 @@ function Navbar() {
             </div>
 
             <div class="flex items-center relative">
-                <div className='text-primary text-center border border-[#e9ecef] rounded-md drop-shadow-md p-2 w-24 mr-5'>
+                <div className='text-primary bg-white text-center border border-[#e9ecef] rounded-md drop-shadow-md p-2 w-24 mr-5'>
                     {/* <a class="text-gray-500 hover:text-gray-700 focus:text-gray-700 mr-4" href="#">
                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="shopping-cart"
                         class="w-4" role="img" xmlns="http://www.w3.org/2000/svg"
