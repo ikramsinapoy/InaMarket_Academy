@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../../Asset/ina_academy.png'
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -54,13 +55,15 @@ function Navbar() {
             <div className='w-fit mx-auto'>
                 <ul class="navbar-nav flex flex-col pl-0 list-style-none mr-auto">
                     <li class="nav-item p-2 ">
-                    <a class="nav-link text-black font-semibold hover:text-gray-700 focus:text-gray-700 p-0 border-b-4 border-primary pb-7" href="#">Beranda</a>
+                        <a class="nav-link text-black font-semibold hover:text-gray-700 focus:text-gray-700 p-0 border-b-4 border-primary pb-7" href="#">Beranda</a>
                     </li>
                     <li class="nav-item p-2">
-                    <a class="nav-link text-gray font-semibold hover:text-gray-700 focus:text-gray-700 p-0" href="#">Kelas</a>
+                        <Link to='/kelas'>
+                            <a class="nav-link text-gray font-semibold hover:text-gray-700 focus:text-gray-700 p-0" href="#">Kelas</a>
+                        </Link>
                     </li>
                     <li class="nav-item p-2">
-                    <a class="nav-link text-gray font-semibold hover:text-gray-700 focus:text-gray-700 p-0" href="#">Tentang Kami</a>
+                        <a class="nav-link text-gray font-semibold hover:text-gray-700 focus:text-gray-700 p-0" href="#">Tentang Kami</a>
                     </li>
                 </ul>
             </div>
