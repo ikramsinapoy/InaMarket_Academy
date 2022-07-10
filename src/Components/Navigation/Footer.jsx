@@ -2,6 +2,10 @@ import React from 'react'
 import logo from '../../Asset/ina_academy.png'
 import ina_market from '../../Asset/ina_market.png'
 import ina_tour from '../../Asset/ina_tour.png'
+import { BsInstagram } from 'react-icons/bs';
+import { BsFacebook } from 'react-icons/bs';
+import { BsWhatsapp } from 'react-icons/bs';
+import { FaTiktok } from 'react-icons/fa';
 
 function Footer() {
   return (
@@ -25,10 +29,24 @@ function Footer() {
               <div className='mb-4 flex justify-center md:justify-start'>
                 <img src={logo} className='w-32'/>
               </div>
-              <p>
+              <p className='mb-4'>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               </p>
               
+              <div className='flex gap-3 justify-center md:justify-start mb-4'>
+                  <button>
+                      <BsInstagram style={{ fontSize: '20px'}}/>
+                  </button>
+                  <button>
+                      <BsFacebook style={{ fontSize: '20px'}}/>
+                  </button>
+                  <button>
+                      <FaTiktok style={{ fontSize: '20px'}}/>
+                  </button>
+                  <button>
+                      <BsWhatsapp style={{ fontSize: '20px'}}/>
+                  </button>
+              </div>
             </div>
 
             <div>
@@ -87,7 +105,7 @@ function Footer() {
               </h6>
               <p className='text-gray mb-4'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. It is a long established fact that a reader will be distracted by the readable content.</p>
               <div>
-                <input className='p-2 border-y border-l border-gray-light rounded-l-md' placeholder='Masukkan Email mu !'></input>
+                <input className='p-2 border-y border-l border-gray-light rounded-l-md w-1/2' placeholder='Email'></input>
                 <button className='bg-primary text-white p-2 rounded-r-lg'>Subscribe</button>
               </div>
             </div>

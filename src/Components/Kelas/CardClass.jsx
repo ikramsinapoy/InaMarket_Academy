@@ -14,7 +14,7 @@ function CardClass() {
                 <div key={1} className='bg-white rounded-lg drop-shadow-lg p-5 border border-[#e9ecef] hover:border-2 hover:border-primary'>
                     <div className="bg-white flex justify-between p-4 rounded-xl">
                         <div className="w-1/3">
-                            <img src={course} className=' rounded-lg'/>
+                            <img src={course} className='h-40 w-full rounded-lg'/>
                         </div>
 
                         <div className="w-3/5">
@@ -71,7 +71,7 @@ function CardClass() {
                 <div key={2} className='bg-white rounded-lg drop-shadow-lg p-5 border border-[#e9ecef] hover:border-2 hover:border-primary'>
                     <div className="bg-white flex justify-between p-4 rounded-xl">
                         <div className="w-1/3">
-                            <img src={course} className=' rounded-lg'/>
+                            <img src={course} className='h-40 w-full rounded-lg'/>
                         </div>
 
                         <div className="w-3/5">

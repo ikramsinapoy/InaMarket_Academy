@@ -63,7 +63,9 @@ function Navbar() {
                         </Link>
                     </li>
                     <li class="nav-item p-2">
-                        <a class="nav-link text-gray font-semibold hover:text-gray-700 focus:text-gray-700 p-0" href="#">Tentang Kami</a>
+                        <Link to="/aboutUs">
+                            <a class="nav-link text-gray font-semibold hover:text-gray-700 focus:text-gray-700 p-0" href="#">Tentang Kami</a>
+                        </Link>
                     </li>
                 </ul>
             </div>

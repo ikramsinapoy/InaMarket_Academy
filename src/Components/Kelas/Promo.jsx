@@ -8,7 +8,10 @@ function Promo() {
                 Promo Bulan ini !
             </h2>
             <p className='font-Inter text-sm my-3'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text </p>
-            <button className='bg-primary p-2 text-white rounded-md'>Daftar Ina Academy</button>
+            <div className='flex justify-center'>
+              <button className='bg-primary p-2 text-white rounded-md'>Daftar Ina Academy</button>
+            </div>
+            
         </div>
     </div>
   )
