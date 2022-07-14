@@ -33,7 +33,7 @@ function Footer() {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               </p>
               
-              <div className='flex gap-3 justify-center md:justify-start mb-4'>
+              <div className='flex gap-5 justify-center md:justify-start mb-4'>
                   <button>
                       <BsInstagram style={{ fontSize: '20px'}}/>
                   </button>

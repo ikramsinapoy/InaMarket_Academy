@@ -4,6 +4,7 @@ import {
   Route,
 } from "react-router-dom";
 import AboutUs from "./Pages/AboutUs";
+import DetailClass from "./Pages/DetailClass";
 import Kelas from "./Pages/Kelas";
 // import { PersistGate } from "redux-persist/integration/react";
 // import { Provider } from "react-redux";
@@ -21,6 +22,7 @@ function App() {
               <Route path="/" element={<LandingPage />} />
               <Route path="/kelas" element={<Kelas />} />
               <Route path="/aboutUs" element={<AboutUs />} />
+              <Route path="/detail-kelas" element={<DetailClass />} />
             </Routes>   
           </BrowserRouter>
         {/* </PersistGate>

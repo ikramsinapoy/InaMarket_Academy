@@ -40,16 +40,16 @@ function Class() {
                 <Slider 
                     ref={slider => (customSlider.current = slider)}
                     dots= {false}
-                    slidesToShow= {1}
+                    slidesToShow= {2}
                     infinite= {false}
                     speed= {500}
                     slidesToScroll= {1}
                     arrows={false}
                 >
                 <div key={1}>
-                    <div className="w-5/12 bg-white flex justify-between p-4 rounded-xl">
+                    <div className="bg-white flex justify-between p-4 rounded-xl mr-2">
                         <div className="w-1/3">
-                            <img src={course} className=' rounded-lg'/>
+                            <img src={course} className='h-full rounded-lg w-full'/>
                         </div>
 
                         <div className="w-3/5">
@@ -77,7 +77,7 @@ function Class() {
 
                             <p className="text-sm mb-2.5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text It is a long established fact that a reader.</p>
                             
-                            <div className="flex justify-evenly">
+                            <div className="flex gap-5">
                                 <div className="flex items-center gap-2">
                                     <AiOutlineClockCircle className="fill-primary"/>
                                     <p className="text-sm">52 Jam</p>
@@ -98,9 +98,9 @@ function Class() {
                 </div>
 
                 <div key={2}>
-                    <div className="w-5/12 bg-white flex justify-between p-4 rounded-xl">
+                    <div className="bg-white flex justify-between p-4 rounded-xl mr-2">
                         <div className="w-1/3">
-                            <img src={course} className=' rounded-lg'/>
+                            <img src={course} className='h-full rounded-lg w-full'/>
                         </div>
 
                         <div className="w-3/5">
@@ -128,7 +128,7 @@ function Class() {
 
                             <p className="text-sm mb-2.5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text It is a long established fact that a reader.</p>
                             
-                            <div className="flex justify-evenly">
+                            <div className="flex gap-5">
                                 <div className="flex items-center gap-2">
                                     <AiOutlineClockCircle className="fill-primary"/>
                                     <p className="text-sm">52 Jam</p>

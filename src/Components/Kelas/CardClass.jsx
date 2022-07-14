@@ -5,6 +5,7 @@ import { BsPeople } from 'react-icons/bs';
 import { AiOutlineClockCircle } from 'react-icons/ai';
 import { BiBook } from 'react-icons/bi';
 import { BsStars } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 
 function CardClass() {
   return (
@@ -64,7 +65,11 @@ function CardClass() {
                             <p className="text-primary text-sm font-semibold">Rp.25.000</p>
                         </div>
 
-                        <button className='bg-primary text-white p-2 rounded-md'>Beli Kelas</button>
+                        <button className='bg-primary text-white p-2 rounded-md'>
+                            <Link to='/detail-kelas'>
+                                Beli Kelas
+                            </Link>
+                        </button>
                     </div>
                 </div>
 
