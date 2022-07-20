@@ -48,18 +48,25 @@ function Navbar() {
                     mt-2
                     lg:mt-0
                     mr-1
-                " href="#">
+                " href="/">
                 <img src={logo} className="w-28" alt=""
                 loading="lazy" />
             </a>
             <div className='w-fit mx-auto'>
                 <ul class="navbar-nav flex flex-col pl-0 list-style-none mr-auto">
+                    {/* <li class="nav-item p-2 ">
+                        <Link to='/'>
+                            <a class="nav-link text-gray font-semibold hover:text-gray-700 focus:text-gray-700 p-0 border-b-4 border-primary pb-7" href="#">Beranda</a>
+                        </Link>
+                    </li> */}
                     <li class="nav-item p-2 ">
-                        <a class="nav-link text-black font-semibold hover:text-gray-700 focus:text-gray-700 p-0 border-b-4 border-primary pb-7" href="#">Beranda</a>
+                        <Link to='/'>
+                            <a class="nav-link text-gray font-semibold hover:text-gray-700 focus:text-gray-700 p-0" href="#">Beranda</a>
+                        </Link>
                     </li>
                     <li class="nav-item p-2">
                         <Link to='/kelas'>
-                            <a class="nav-link text-gray font-semibold hover:text-gray-700 focus:text-gray-700 p-0" href="#">Kelas</a>
+                            <a class="nav-link text-gray font-semibold hover:text-black focus:text-black active:text-black p-0" href="#">Kelas</a>
                         </Link>
                     </li>
                     <li class="nav-item p-2">
