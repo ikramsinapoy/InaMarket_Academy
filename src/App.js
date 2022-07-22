@@ -3,6 +3,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import TestComponent from "./Components/TestComponent";
 import AboutUs from "./Pages/AboutUs";
 import DetailClass from "./Pages/DetailClass";
 import ForgetPass from "./Pages/ForgetPass";
@@ -29,6 +30,7 @@ function App() {
               <Route path="/login" element={<Login />} />
               <Route path="/register" element={<Regis />} />
               <Route path="/forget-password" element={<ForgetPass />} />
+              <Route path="/tes" element={<TestComponent />} />
             </Routes>   
           </BrowserRouter>
         {/* </PersistGate>
