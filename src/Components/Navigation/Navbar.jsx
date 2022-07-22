@@ -91,13 +91,13 @@ function Navbar() {
                         </svg>
                     </a> */}
 
-                    <a class="text-gray-500 hover:text-gray-700 focus:text-gray-700" href="#">
+                    <a class="text-gray-500 hover:text-gray-700 focus:text-gray-700" href="/register">
                         Daftar
                     </a>
                 </div>
 
                 <div className='text-white bg-primary text-center border border-[#e9ecef] rounded-md drop-shadow-md p-2 w-24'>
-                    <a class="text-gray-500 hover:text-gray-700 focus:text-gray-700" href="#">
+                    <a class="text-gray-500 hover:text-gray-700 focus:text-gray-700" href="/login">
                         Masuk
                     </a>
                 </div>
