@@ -15,8 +15,8 @@ function Class() {
     const customSlider = useRef();
 
   return (
-    <div className='w-9/12 mx-auto mb-20 mt-52'>
-        <div className='w-2/4 mx-auto mb-16'>
+    <div className='w-11/12 md:w-9/12 mx-auto mb-20 mt-28 md:mt-52'>
+        <div className='md:w-2/4 mx-auto mb-16'>
             <h3 className='font-semibold text-3xl my-5 font-Montserrat text-center'>Ikuti Kelas Kami !</h3>
             <p className='text-gray font-Inter text-center'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text It is a long established fact that a reader.</p>
         </div>
