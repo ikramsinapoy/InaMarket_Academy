@@ -8,16 +8,17 @@ function FilterAccordion() {
                 Filter
             </h2>
             <div class="accordion accordion-flush" id="accordionFlushExample">
-                <div class="accordion-item border-t-0 border-l-0 border-r-0 rounded-none bg-white">
+                <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white">
                     <h2 class="accordion-header mb-0 font-Inter font-semibold text-sm" id="flush-headingOne">
                     <button class="accordion-button
+                    collapsed
                     relative
-                    flex
+                    flex    
                     items-center
                     w-full
                     py-2
                     
-                    text-left
+                    text-black text-left
                     bg-white
                     border-0
                     rounded-none
@@ -27,8 +28,8 @@ function FilterAccordion() {
                         Kategori
                     </button>
                     </h2>
-                    <div id="flush-collapseOne" class="accordion-collapse border-0 collapse show"
-                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div id="flush-collapseOne" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body py-2 ">
                             <div className='flex items-center gap-2'>
                                 <input type="checkbox" id='design_grafis' name="design_grafis" className='bg-pink border-primary text-green focus:ring-orange' value="design_grafis"></input>

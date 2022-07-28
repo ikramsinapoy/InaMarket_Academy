@@ -14,8 +14,16 @@ function MainInfo() {
             </div>
         </div>
 
-        <div>
+        <div className=''>
           <Example/>
+           {/* <iframe
+            src="https://www.youtube.com/embed/E7wJTI-1dvQ"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen
+            title="video"
+            height="500px"
+          /> */}
         </div>
     </div>
   )
@@ -39,7 +47,6 @@ class Example extends React.Component {
 
     return <YouTube videoId='7-ovTjGe3JY' opts={opts} onReady={this._onReady} className=''/>;
   }
-
-  
 }
+
 export default MainInfo;

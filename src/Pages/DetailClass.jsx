@@ -12,13 +12,22 @@ function DetailClass() {
   return (
     <div>
         <Navbar/>
-        <div className='w-9/12 mx-auto my-10'>
+        <div className='w-11/12 xl:w-9/12 mx-auto my-10'>
             <Breadcrumbs/>
             <CardDetailClass/>
-            <ClassInformation/>
-            <Testimoni/>
-            <Needs/>
-            <Benefit/>
+            <div className='flex justify-between'>
+              <div className='w-4/6'>
+                <ClassInformation/>
+                <Testimoni/>
+              </div>
+              
+              <div className='w-1/4'>
+                <Needs/>
+                <Benefit/>
+              </div>
+              
+            </div>
+            
         </div>
         <Footer/>
     </div>

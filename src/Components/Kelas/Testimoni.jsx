@@ -9,14 +9,14 @@ function Testimoni() {
   return (
     <div>
         <div className='flex justify-between mb-3'>
-            <h3 className='font-Inter font-semibold text-2xl text-black mb-3'>Testimoni</h3>
+            <h3 className='font-Inter font-semibold text-2xl text-black mb-3' id='testimoni'>Testimoni</h3>
             <div className='flex items-center gap-2'>
                 <AiFillStar className='fill-yellow'/>
                 <h5 className='font-Inter font-semibold text-base text-black'>4.8 (30 Testimoni)</h5>
             </div>
         </div>
 
-        <div className='flex justify-evenly mb-3'>
+        <div className='flex gap-5 overflow-auto mb-3'>
           <button className='bg-white p-2 border border-primary w-fit rounded-md'>
             <p className='font-Inter text-xs text-black'>Lihat Semua</p>
           </button>
@@ -50,8 +50,8 @@ function Testimoni() {
             slidesToScroll= {1}
           >
             <div key={1}>
-              <div className='border border-[#E0E0E0] rounded-lg p-5 mr-3'>
-                <div className=' flex justify-between mb-5'>
+              <div className='border border-[#E0E0E0] rounded-lg p-2 lg:p-5 mr-3'>
+                <div className=' flex flex-col xl:flex-row justify-between mb-5'>
                   <div className='flex items-center gap-3'>
                     <img src={man} className='rounded-full w-12'/> 
                     <div>
@@ -74,8 +74,8 @@ function Testimoni() {
             </div>
 
             <div key={2}>
-              <div className='border border-[#E0E0E0] rounded-lg p-5 mr-3'>
-                <div className=' flex justify-between mb-5'>
+              <div className='border border-[#E0E0E0] rounded-lg p-2 lg:p-5 mr-3'>
+                <div className=' flex flex-col xl:flex-row justify-between mb-5'>
                   <div className='flex items-center gap-3'>
                     <img src={man} className='rounded-full w-12'/> 
                     <div>
