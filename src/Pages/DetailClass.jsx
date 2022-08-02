@@ -4,6 +4,7 @@ import Breadcrumbs from '../Components/Kelas/Breadcrumbs'
 import CardDetailClass from '../Components/Kelas/CardDetailClass'
 import ClassInformation from '../Components/Kelas/ClassInformation'
 import Needs from '../Components/Kelas/Needs'
+import ProgresBar from '../Components/Kelas/ProgresBar'
 import Testimoni from '../Components/Kelas/Testimoni'
 import Footer from '../Components/Navigation/Footer'
 import Navbar from '../Components/Navigation/Navbar'
@@ -22,6 +23,7 @@ function DetailClass() {
               </div>
               
               <div className='w-1/4'>
+                <ProgresBar/>
                 <Needs/>
                 <Benefit/>
               </div>

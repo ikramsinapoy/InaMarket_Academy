@@ -21,8 +21,8 @@ function Class() {
             <p className='text-gray font-Inter text-center'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text It is a long established fact that a reader.</p>
         </div>
 
-        <div className='bg-secondary p-10 mb-10 rounded-2xl'>
-            <div className="flex justify-between mb-10">
+        <div className='bg-secondary p-5 mb-10 rounded-2xl'>
+            <div className="flex justify-between mb-5">
                 <h4 className='flex items-center text-lg font-Inter font-semibold'>Lihat Semua Kelas <HiOutlineChevronRight className='ml-2'/></h4>
             
                 <div className='flex gap-5'>
@@ -47,9 +47,9 @@ function Class() {
                     arrows={false}
                 >
                 <div key={1}>
-                    <div className="bg-white flex justify-between p-4 rounded-xl mr-2">
+                    <div className="bg-white flex justify-between px-3 py-5 rounded-xl mr-2">
                         <div className="w-1/3">
-                            <img src={course} className='h-full rounded-lg w-full'/>
+                            <img src={course} className='h-full rounded-lg w-full object-cover'/>
                         </div>
 
                         <div className="w-3/5">
@@ -77,7 +77,7 @@ function Class() {
 
                             <p className="text-sm mb-2.5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text It is a long established fact that a reader.</p>
                             
-                            <div className="flex gap-5">
+                            <div className="flex gap-3">
                                 <div className="flex items-center gap-2">
                                     <AiOutlineClockCircle className="fill-primary"/>
                                     <p className="text-sm">52 Jam</p>
@@ -98,9 +98,9 @@ function Class() {
                 </div>
 
                 <div key={2}>
-                    <div className="bg-white flex justify-between p-4 rounded-xl mr-2">
+                    <div className="bg-white flex justify-between px-3 py-5 rounded-xl mr-2">
                         <div className="w-1/3">
-                            <img src={course} className='h-full rounded-lg w-full'/>
+                            <img src={course} className='h-full rounded-lg w-full object-cover'/>
                         </div>
 
                         <div className="w-3/5">
@@ -128,7 +128,7 @@ function Class() {
 
                             <p className="text-sm mb-2.5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text It is a long established fact that a reader.</p>
                             
-                            <div className="flex gap-5">
+                            <div className="flex gap-3">
                                 <div className="flex items-center gap-2">
                                     <AiOutlineClockCircle className="fill-primary"/>
                                     <p className="text-sm">52 Jam</p>

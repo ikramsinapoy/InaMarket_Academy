@@ -12,7 +12,7 @@ function CardTeam() {
     <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
         <div className='bg-white rounded-lg drop-shadow-lg p-5 border border-[#f1f3f5]'>
             <div className='mb-4'>
-                <img src={antMan} className='rounded-lg h-52 w-full'/>
+                <img src={antMan} className='rounded-lg h-52 w-full object-cover'/>
             </div>
             <div className='flex justify-between'>
                 <p className='font-Inter text-base font-semibold mb-1'>Iron Man</p>
@@ -35,7 +35,7 @@ function CardTeam() {
 
         <div className='bg-white rounded-lg drop-shadow-lg p-5 border border-[#f1f3f5]'>
             <div className='mb-4'>
-                <img src={deadPool} className='rounded-lg h-52 w-full'/>
+                <img src={deadPool} className='rounded-lg h-52 w-full object-cover'/>
             </div>
             <div className='flex justify-between'>
                 <p className='font-Inter text-base font-semibold mb-1'>Iron Man</p>
@@ -58,7 +58,7 @@ function CardTeam() {
 
         <div className='bg-white rounded-lg drop-shadow-lg p-5 border border-[#f1f3f5]'>
             <div className='mb-4'>
-                <img src={course} className='rounded-lg h-52 w-full'/>
+                <img src={course} className='rounded-lg h-52 w-full object-cover'/>
             </div>
             <div className='flex justify-between'>
                 <p className='font-Inter text-base font-semibold mb-1'>Iron Man</p>
@@ -81,7 +81,7 @@ function CardTeam() {
 
         <div className='bg-white rounded-lg drop-shadow-lg p-5 border border-[#f1f3f5]'>
             <div className='mb-4'>
-                <img src={spiderman} className='rounded-lg h-52 w-full'/>
+                <img src={spiderman} className='rounded-lg h-52 w-full object-cover'/>
             </div>
             <div className='flex justify-between'>
                 <p className='font-Inter text-base font-semibold mb-1'>Iron Man</p>
