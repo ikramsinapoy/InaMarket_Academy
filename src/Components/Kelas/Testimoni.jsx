@@ -98,10 +98,50 @@ function Testimoni() {
             </div>
 
             <div key={3}>
-                <h3>3</h3>
+                <div className='border border-[#E0E0E0] rounded-lg p-2 lg:p-5 mr-3'>
+                <div className=' flex flex-col xl:flex-row justify-between mb-5'>
+                  <div className='flex items-center gap-3'>
+                    <img src={man} className='rounded-full w-12'/> 
+                    <div>
+                      <p className='font-Inter text-black font-semibold text-sm'>Pratama</p>
+                      <p className='font-Inter text-gray text-sm'>28 April 2022</p>
+                    </div> 
+                  </div>
+
+                  <div className='flex gap-1'>
+                    <AiFillStar className='fill-yellow'/>
+                    <AiFillStar className='fill-yellow'/>
+                    <AiFillStar className='fill-yellow'/>
+                    <AiFillStar className='fill-yellow'/>
+                    <AiFillStar className='fill-yellow'/>
+                  </div>
+                </div>
+
+                <p className='font-Inter text-gray text-sm'>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the"</p>
+              </div>
             </div>
             <div key={4}>
-                <h3>4</h3>
+                <div className='border border-[#E0E0E0] rounded-lg p-2 lg:p-5 mr-3'>
+                <div className=' flex flex-col xl:flex-row justify-between mb-5'>
+                  <div className='flex items-center gap-3'>
+                    <img src={man} className='rounded-full w-12'/> 
+                    <div>
+                      <p className='font-Inter text-black font-semibold text-sm'>Pratama</p>
+                      <p className='font-Inter text-gray text-sm'>28 April 2022</p>
+                    </div> 
+                  </div>
+
+                  <div className='flex gap-1'>
+                    <AiFillStar className='fill-yellow'/>
+                    <AiFillStar className='fill-yellow'/>
+                    <AiFillStar className='fill-yellow'/>
+                    <AiFillStar className='fill-yellow'/>
+                    <AiFillStar className='fill-yellow'/>
+                  </div>
+                </div>
+
+                <p className='font-Inter text-gray text-sm'>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the"</p>
+              </div>
             </div>
             <div key={5}>
                 <h3>5</h3>

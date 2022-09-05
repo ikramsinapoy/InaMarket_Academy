@@ -17,7 +17,6 @@ function FilterAccordion() {
                     items-center
                     w-full
                     py-2
-                    
                     text-black text-left
                     bg-white
                     border-0
