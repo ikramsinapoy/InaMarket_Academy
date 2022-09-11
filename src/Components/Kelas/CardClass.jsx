@@ -12,14 +12,14 @@ function CardClass() {
     <div>
         <div className='grid grid-cols-1 sm:grid-cols-2 gap-8'>
             {/* <div className='bg-white rounded-lg drop-shadow-lg p-5 mt-10'> */}
-                <div key={1} className='bg-white rounded-lg drop-shadow-lg p-2 2xl:p-4 border border-[#e9ecef] hover:border-2 hover:border-primary'>
+                <div key={1} className='bg-white rounded-lg drop-shadow-lg p-2 2xl:p-4 border border-[#e9ecef] hover:border-2 hover:border-primary max-w-md'>
                     <div className="bg-white flex flex-col 2xl:flex-row justify-between rounded-xl">
                         <div className="2xl:w-1/3">
                             <img src={course} className='h-40 w-full rounded-lg object-cover'/>
                         </div>
 
                         <div className="2xl:w-3/5">
-                            <div className="w-1/4 border border-primary mt-3 2xl:mt-0"></div>
+                            <div className="w-1/4 bg-primary h-1 mt-3 2xl:mt-0"></div>
                             <div className="flex items-center gap-5 my-3">
                                 <h4 className='text-base font-Inter font-semibold'>Marketing Guide 101</h4>
                                 <div className="bg-gray-dark p-1 rounded-full flex gap-2 items-center w-fit">
@@ -73,14 +73,14 @@ function CardClass() {
                     </div>
                 </div>
 
-                <div key={2} className='bg-white rounded-lg drop-shadow-lg p-2 2xl:p-4 border border-[#e9ecef] hover:border-2 hover:border-primary'>
+                <div key={2} className='bg-white rounded-lg drop-shadow-lg p-2 2xl:p-4 border border-[#e9ecef] hover:border-2 hover:border-primary max-w-md'>
                     <div className="bg-white flex flex-col 2xl:flex-row justify-between rounded-xl">
                         <div className="2xl:w-1/3">
                             <img src={course} className='h-40 w-full rounded-lg object-cover'/>
                         </div>
 
                         <div className="2xl:w-3/5">
-                            <div className="w-1/4 border border-primary mt-3 2xl:mt-0"></div>
+                            <div className="w-1/4 bg-primary h-1 mt-3 2xl:mt-0"></div>
                             <div className="flex items-center gap-5 my-3">
                                 <h4 className='text-base font-Inter font-semibold'>Marketing Guide 101</h4>
                                 <div className="bg-gray-dark p-1 rounded-full flex gap-2 items-center w-fit">

@@ -8,15 +8,15 @@ function AboutUs() {
   return (
     <div>
         <Navbar/>
-        <div className='w-11/12 md:w-9/12 mx-auto my-10'>
-            <div className='md:w-2/4 mx-auto mb-16'>
+        <div className='w-11/12 xl:w-5/6 2xl:w-9/12 mx-auto my-10'>
+            <div className='md:w-9/12 xl:w-2/4 mx-auto mb-16'>
                 <h3 className='font-semibold text-3xl mb-5 font-Montserrat text-center'>Tentang Kami</h3>
                 <p className='text-gray font-Inter text-center'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text It is a long established fact that a reader.</p>
             </div>
 
             <VisiMisi/>
 
-            <div className='md:w-2/4 mx-auto mb-16'>
+            <div className='md:w-9/12 xl:w-2/4 mx-auto mb-16'>
                 <h3 className='font-semibold text-3xl mb-5 font-Montserrat text-center'>Our Team</h3>
                 <p className='text-gray font-Inter text-center'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text It is a long established fact that a reader.</p>
             </div>

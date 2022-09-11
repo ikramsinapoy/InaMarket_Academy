@@ -14,6 +14,7 @@ import Kelas from "./Pages/Kelas";
 // import { store,persistor } from "./Redux/Store";
 import LandingPage from "./Pages/LandingPage";
 import Login from "./Pages/Login";
+import MyProfile from "./Pages/MyProfile";
 import Notif from "./Pages/Notification";
 import Regis from "./Pages/Regis";
 import Setting from "./Pages/Setting";
@@ -36,6 +37,7 @@ function App() {
               <Route path="/forget-password" element={<ForgetPass />} />
               <Route path="/setting" element={<Setting />} />
               <Route path="/notification" element={<Notif />} />
+              <Route path="/my-profile" element={<MyProfile />} />
               <Route path="/tes" element={<TestComponent />} />
             </Routes>   
           </BrowserRouter>

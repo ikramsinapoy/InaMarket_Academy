@@ -3,19 +3,22 @@ import Footer from '../Components/Navigation/Footer'
 import Navbar from '../Components/Navigation/Navbar'
 import { TiShoppingCart } from 'react-icons/ti';
 import { TbMessage } from 'react-icons/tb';
+import { MdOutlinePersonAddAlt } from 'react-icons/md';
+import { GiPadlock } from 'react-icons/gi';
+import { TbLanguage } from 'react-icons/tb';
+import EditProfile from '../Components/Settings/EditProfile';
+import Promo from '../Components/Notification/Promo';
 
 function Notif() {
   return (
     <div>
         <Navbar/>
         <div className='w-11/12 md:w-9/12 mx-auto my-10'>
-            <h2 class="font-Inter font-semibold text-xl pb-5">
-                Pengaturan
-            </h2>
+            {/* <Promo/>  */}
             <div class="flex items-start gap-10">
-                <div className='bg-white rounded-lg drop-shadow-lg py-5 border border-[#f1f3f5] w-1/3'>
+                <div className='bg-white rounded-lg drop-shadow-lg py-5 border border-[#f1f3f5] 2xl:w-80'>
                     <h2 class="font-Inter font-semibold text-base pb-3 px-5 border-b border-primary">
-                        Menu
+                        Notifikasi
                     </h2>
                     <ul class="nav nav-tabs flex flex-col flex-wrap list-none border-b-0 pl-0" id="tabs-tabVertical"
                     role="tablist">
@@ -35,7 +38,7 @@ function Notif() {
                             active
                             " id="tabs-home-tabVertical" data-bs-toggle="pill" data-bs-target="#tabs-homeVertical" role="tab"
                             aria-controls="tabs-homeVertical" aria-selected="true">
-                                <div className='flex gap-2 items-center'><MdOutlinePersonAddAlt/> Edit Profile</div>
+                                <div className='flex gap-2 items-center'><TiShoppingCart/> Edit Profile</div>
                             </a>
                         </li>
                         <li class="nav-item flex-grow" role="presentation">
@@ -53,7 +56,7 @@ function Notif() {
                             focus:border-transparent focus:bg-pink
                             " id="tabs-profile-tabVertical" data-bs-toggle="pill" data-bs-target="#tabs-profileVertical" role="tab"
                             aria-controls="tabs-profileVertical" aria-selected="false">
-                                <div className='flex gap-2 items-center'><GiPadlock/> Ganti Kata Sandi</div>
+                                <div className='flex gap-2 items-center'><TbMessage/> Ganti Kata Sandi</div>
                             </a>
                         </li>
                         <li class="nav-item flex-grow" role="presentation">
@@ -71,7 +74,7 @@ function Notif() {
                             focus:border-transparent focus:bg-pink
                             " id="tabs-messages-tabVertical" data-bs-toggle="pill" data-bs-target="#tabs-messagesVertical" role="tab"
                             aria-controls="tabs-messagesVertical" aria-selected="false">
-                                <div className='flex gap-2 items-center'><TbLanguage/> Ganti Bahasa</div>
+                                <div className='flex gap-2 items-center'><TbMessage/> Ganti Bahasa</div>
                             </a>
                         </li>
                     </ul>
@@ -80,14 +83,16 @@ function Notif() {
                 <div class="tab-content" id="tabs-tabContentVertical">
                     <div class="tab-pane fade show active" id="tabs-homeVertical" role="tabpanel"
                     aria-labelledby="tabs-home-tabVertical">
-                        <EditProfile/>
+                        <Promo/>
                     </div>
                     <div class="tab-pane fade" id="tabs-profileVertical" role="tabpanel" aria-labelledby="tabs-profile-tabVertical">
-                        <ChangePass/>
+                        {/* <ChangePass/> */}
+                        Content
                     </div>
                     <div class="tab-pane fade" id="tabs-messagesVertical" role="tabpanel"
                     aria-labelledby="tabs-profile-tabVertical">
-                        <ChangeLanguage/>
+                        {/* <ChangeLanguage/> */}
+                        Content
                     </div>
                 </div>
             </div>

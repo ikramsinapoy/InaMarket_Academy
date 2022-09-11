@@ -17,7 +17,7 @@ function Setting() {
                 Pengaturan
             </h2>
             <div class="flex items-start gap-10">
-                <div className='bg-white rounded-lg drop-shadow-lg py-5 border border-[#f1f3f5] w-1/3'>
+                <div className='bg-white rounded-lg drop-shadow-lg py-5 border border-[#f1f3f5] 2xl:w-1/3'>
                     <h2 class="font-Inter font-semibold text-base pb-3 px-5 border-b border-primary">
                         Menu
                     </h2>

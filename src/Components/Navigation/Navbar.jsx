@@ -115,12 +115,12 @@ function Navbar() {
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item py-2 px-4 block w-full whitespace-nowrap bg-transparent font-Inter font-semibold text-black text-sm hover:bg-pink" href="#">
+                            <a class="dropdown-item py-2 px-4 block w-full whitespace-nowrap bg-transparent font-Inter font-semibold text-black text-sm hover:bg-pink" href="/kelas">
                                 <div className='flex gap-2 items-center'><BiBookAlt/> Kursus Saya</div>
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item py-2 px-4 block w-full whitespace-nowrap bg-transparent font-Inter font-semibold text-black text-sm hover:bg-pink" href="#">
+                            <a class="dropdown-item py-2 px-4 block w-full whitespace-nowrap bg-transparent font-Inter font-semibold text-black text-sm hover:bg-pink" href="/my-profile">
                                 <div className='flex gap-2 items-center'><BsPerson/> Profil</div>
                             </a>
                         </li>
@@ -130,7 +130,7 @@ function Navbar() {
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item py-2 px-4 block w-full whitespace-nowrap bg-transparent font-Inter font-semibold text-black text-sm hover:bg-pink" href="#">
+                            <a class="dropdown-item py-2 px-4 block w-full whitespace-nowrap bg-transparent font-Inter font-semibold text-black text-sm hover:bg-pink" href="/setting">
                                 <div className='flex gap-2 items-center'><RiSettings5Fill/> Pengaturan</div>
                             </a>
                         </li>

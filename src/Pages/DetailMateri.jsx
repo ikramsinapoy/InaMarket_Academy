@@ -4,6 +4,7 @@ import Materi from '../Components/MyCourse/Materi'
 import Silabus from '../Components/MyCourse/Silabus'
 import Footer from '../Components/Navigation/Footer'
 import Navbar from '../Components/Navigation/Navbar'
+import course from '../Asset/class.jpg';
 
 function DetailMateri() {
   return (
@@ -15,10 +16,10 @@ function DetailMateri() {
               <Silabus/>
               <ProgresBar/>
             </div>
-
-            <Materi/>
+            <div className='w-full'>
+              <Materi/>
+            </div>
           </div>
-          
         </div>
         <Footer/>
     </div>
