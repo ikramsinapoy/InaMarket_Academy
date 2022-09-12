@@ -125,7 +125,7 @@ function Navbar() {
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item py-2 px-4 block w-full whitespace-nowrap bg-transparent font-Inter font-semibold text-black text-sm hover:bg-pink" href="#">
+                            <a class="dropdown-item py-2 px-4 block w-full whitespace-nowrap bg-transparent font-Inter font-semibold text-black text-sm hover:bg-pink" href="/message">
                                 <div className='flex gap-2 items-center'><BiMessageDetail/> Pesan</div>
                             </a>
                         </li>
@@ -195,7 +195,7 @@ function Navbar() {
                             bg-transparent
                             text-gray-700
                             hover:bg-gray-100
-                            " href="#">Action</a>
+                            " href="/notification">Action</a>
                         </li>
                         <li>
                             <a class="
