@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 function CardClass() {
   return (
     <div>
-        <div className='grid grid-cols-1 sm:grid-cols-2 gap-8'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 gap-8 justify-items-center'>
             {/* <div className='bg-white rounded-lg drop-shadow-lg p-5 mt-10'> */}
                 <div key={1} className='bg-white rounded-lg drop-shadow-lg p-2 2xl:p-4 border border-[#e9ecef] hover:border-2 hover:border-primary max-w-md'>
                     <div className="bg-white flex flex-col 2xl:flex-row justify-between rounded-xl">

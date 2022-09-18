@@ -16,7 +16,7 @@ function Kelas() {
               <p className='text-gray font-Inter'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text It is a long established fact that a reader.</p>
           </div>
           <div className='flex flex-col xl:flex-row gap-8'>
-            <div className='flex flex-col gap-10'>
+            <div className='flex flex-col gap-10 xl:w-1/4'>
               <FilterAccordion/>
               <Promo/>
             </div>

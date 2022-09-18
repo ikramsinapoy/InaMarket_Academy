@@ -47,7 +47,7 @@ function Navbar() {
                             </li> */}
                             <li class="nav-item p-2">
                                 <Link to='/'>
-                                    <a class="nav-link text-gray font-semibold hover:text-gray-700 focus:text-gray-700 p-0" href="#">Beranda</a>
+                                    <a class="nav-link text-gray font-semibold hover:text-black focus:text-black active:text-black hover:text-gray-700 focus:text-gray-700 p-0" href="#">Beranda</a>
                                 </Link>
                             </li>
                             <li class="nav-item p-2">
@@ -57,7 +57,7 @@ function Navbar() {
                             </li>
                             <li class="nav-item p-2">
                                 <Link to="/aboutUs">
-                                    <a class="nav-link text-gray font-semibold hover:text-gray-700 focus:text-gray-700 p-0" href="#">Tentang Kami</a>
+                                    <a class="nav-link text-gray font-semibold hover:text-black focus:text-black active:text-black hover:text-gray-700 focus:text-gray-700 p-0" href="#">Tentang Kami</a>
                                 </Link>
                             </li>
                         </ul>
