@@ -13,13 +13,15 @@ function LandingPage() {
   return (
     <div>
         <Navbar/>
-        <MainInfo/>
-        <Reason/>
-        <MainFeature/>
-        <Category/>
-        <Class/>
-        <Testimoni/>
-        <Learn/>
+        <div className='w-11/12 xl:w-9/12 mx-auto my-20'>
+          <MainInfo/>
+          <Reason/>
+          <MainFeature/>
+          <Category/>
+          <Class/>
+          <Testimoni/>
+          <Learn/>
+        </div>
         <Footer/>
     </div>
   )
