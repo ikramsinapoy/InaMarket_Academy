@@ -36,7 +36,7 @@ function Class() {
             </div>
             
             
-            <div className="drop-shadow-lg">
+            <div className="drop-shadow-lg ">
                 <Slider 
                     ref={slider => (customSlider.current = slider)}
                     dots= {false}
@@ -45,6 +45,17 @@ function Class() {
                     speed= {500}
                     slidesToScroll= {1}
                     arrows={false}
+                    responsive= {
+                        [
+                             {
+                                breakpoint: 600,
+                                settings: {
+                                    slidesToShow: 1,
+                                }
+                            }
+                        ]
+                    }
+                    className='overflow-x-auto'
                 >
                 <div key={1}>
                     <div className="bg-white flex flex-col 2xl:flex-row justify-between px-3 py-5 rounded-xl mr-2">

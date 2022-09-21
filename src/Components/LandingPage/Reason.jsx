@@ -5,7 +5,7 @@ function Reason() {
   return (
     <div>
         <div className='bg-secondary p-7 md:p-10 mb-7 md:mb-10 rounded-2xl flex items-center'>
-            <div className='2xl:flex md:gap-20 items-center justify-center'>
+            <div className='xl:flex md:gap-20 items-center justify-center'>
                 <img src={logo} className=''/>
 
                 <div className='2xl:w-2/5'>

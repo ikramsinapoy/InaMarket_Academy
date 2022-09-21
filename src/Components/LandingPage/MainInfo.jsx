@@ -1,7 +1,7 @@
 import React from 'react'
 import YouTube from 'react-youtube';
-import ReactPlayer from 'react-player'
-// import './responsive-player.css'
+import { useState } from 'react';
+import { useEffect } from 'react';
 
 function MainInfo() {
   return (
@@ -16,64 +16,56 @@ function MainInfo() {
             </div>
         </div>
 
-        <div className=''>
-          {/* <Example/> */}
-          {/* <VIdeoTeaser/> */}
-          <ReactPlayer 
-            url='https://youtu.be/Opksxsx8Sjw' 
-            className=''
-          />
-          {/* <div className='player-wrapper'>
-            <ReactPlayer
-              className='react-player'
-              url='https://www.youtube.com/watch?v=ysz5S6PUM-U'
-              width='100%'
-              height='100%'
-              controls={true}
-            />
-          </div> */}
+        <div>
+          <VIdeoTeaser/>
         </div>
     </div>
   )
 }
 
 function VIdeoTeaser(){
+  const [windowDimension, detectHW] = useState({
+    winWidth: window.innerWidth
+  })
+
+  const detectSize = () =>{
+    detectHW({
+      winWidth: window.innerWidth
+    })
+  }
+
+  useEffect(() => {
+    window.addEventListener('resize', detectSize)
+
+    return() => {
+      window.removeEventListener('resize', detectSize)
+    }
+  }, [windowDimension])
+
   const onReady = (event) =>{
-    event.target.pauseVideo();
+    event.target.playVideo();
   }
 
   const opts = {
-      height: '390',
-      width: '640',
-      playerVars: {
-        // https://developers.google.com/youtube/player_parameters
-        autoplay: 1,
-      },
-    };
-  
-    return (
-      <YouTube videoId='Ir8S5GFCY6o' opts={opts} onReady={onReady} className=''/>
-    );
-}
+    height: '390',
+    width: '640',
+    playerVars: {
+      autoplay: 1,
+    },
+  };
 
-class Example extends React.Component {
-  _onReady(event) {
-    // access to player in all event handlers via event.target
-    event.target.pauseVideo();
-  }
+  const optsResp = {
+    height: '215',
+    width: '360',
+    playerVars: {
+      autoplay: 1,
+    },
+  };
 
-  render() {
-    const opts = {
-      height: '215',
-      width: '365',
-      playerVars: {
-        // https://developers.google.com/youtube/player_parameters
-        autoplay: 1,
-      },
-    };
 
-    return <YouTube videoId='Ir8S5GFCY6o' opts={opts} onReady={this._onReady} className=''/>;
-  }
+  return (
+    <YouTube videoId='Opksxsx8Sjw' opts={windowDimension.winWidth < 700? optsResp : opts} onReady={onReady} className=''/>
+  );
 }
 
 export default MainInfo;
