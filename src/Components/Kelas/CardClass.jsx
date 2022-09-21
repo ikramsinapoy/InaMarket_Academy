@@ -10,16 +10,16 @@ import { Link } from 'react-router-dom';
 function CardClass() {
   return (
     <div>
-        <div className='grid grid-cols-2 gap-8'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 gap-8 justify-items-center'>
             {/* <div className='bg-white rounded-lg drop-shadow-lg p-5 mt-10'> */}
-                <div key={1} className='bg-white rounded-lg drop-shadow-lg p-5 border border-[#e9ecef] hover:border-2 hover:border-primary'>
-                    <div className="bg-white flex justify-between p-4 rounded-xl">
-                        <div className="w-1/3">
-                            <img src={course} className='h-40 w-full rounded-lg'/>
+                <div key={1} className='bg-white rounded-lg drop-shadow-lg p-2 2xl:p-4 border border-[#e9ecef] hover:border-2 hover:border-primary max-w-md'>
+                    <div className="bg-white flex flex-col 2xl:flex-row justify-between rounded-xl">
+                        <div className="2xl:w-1/3">
+                            <img src={course} className='h-40 w-full rounded-lg object-cover'/>
                         </div>
 
-                        <div className="w-3/5">
-                            <div className="w-1/4 border border-primary"></div>
+                        <div className="2xl:w-3/5">
+                            <div className="w-1/4 bg-primary h-1 mt-3 2xl:mt-0"></div>
                             <div className="flex items-center gap-5 my-3">
                                 <h4 className='text-base font-Inter font-semibold'>Marketing Guide 101</h4>
                                 <div className="bg-gray-dark p-1 rounded-full flex gap-2 items-center w-fit">
@@ -42,7 +42,7 @@ function CardClass() {
 
                     <p className="text-sm mb-2.5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text It is a long established fact that a reader.</p>
                     
-                    <div className="flex gap-10 mb-2.5">
+                    <div className="flex gap-4 2xl:gap-7 mb-4">
                         <div className="flex items-center gap-2">
                             <AiOutlineClockCircle className="fill-primary"/>
                             <p className="text-sm">52 Jam</p>
@@ -73,14 +73,14 @@ function CardClass() {
                     </div>
                 </div>
 
-                <div key={2} className='bg-white rounded-lg drop-shadow-lg p-5 border border-[#e9ecef] hover:border-2 hover:border-primary'>
-                    <div className="bg-white flex justify-between p-4 rounded-xl">
-                        <div className="w-1/3">
-                            <img src={course} className='h-40 w-full rounded-lg'/>
+                <div key={2} className='bg-white rounded-lg drop-shadow-lg p-2 2xl:p-4 border border-[#e9ecef] hover:border-2 hover:border-primary max-w-md'>
+                    <div className="bg-white flex flex-col 2xl:flex-row justify-between rounded-xl">
+                        <div className="2xl:w-1/3">
+                            <img src={course} className='h-40 w-full rounded-lg object-cover'/>
                         </div>
 
-                        <div className="w-3/5">
-                            <div className="w-1/4 border border-primary"></div>
+                        <div className="2xl:w-3/5">
+                            <div className="w-1/4 bg-primary h-1 mt-3 2xl:mt-0"></div>
                             <div className="flex items-center gap-5 my-3">
                                 <h4 className='text-base font-Inter font-semibold'>Marketing Guide 101</h4>
                                 <div className="bg-gray-dark p-1 rounded-full flex gap-2 items-center w-fit">
@@ -103,7 +103,7 @@ function CardClass() {
 
                     <p className="text-sm mb-2.5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text It is a long established fact that a reader.</p>
                     
-                    <div className="flex gap-10 mb-2.5">
+                    <div className="flex gap-4 2xl:gap-7 mb-4">
                         <div className="flex items-center gap-2">
                             <AiOutlineClockCircle className="fill-primary"/>
                             <p className="text-sm">52 Jam</p>
@@ -126,9 +126,14 @@ function CardClass() {
                             <p className="text-primary text-sm font-semibold">Rp.25.000</p>
                         </div>
 
-                        <button className='bg-primary text-white p-2 rounded-md'>Beli Kelas</button>
+                        <button className='bg-primary text-white p-2 rounded-md'>
+                            <Link to='/detail-kelas'>
+                                Beli Kelas
+                            </Link>
+                        </button>
                     </div>
                 </div>
+                
             {/* </div> */}
         </div>
     </div>

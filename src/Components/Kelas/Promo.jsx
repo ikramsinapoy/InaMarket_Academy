@@ -3,7 +3,7 @@ import React from 'react'
 function Promo() {
   return (
     <div>
-        <div className='bg-pink p-3 rounded-lg drop-shadow-lg'>
+        <div className='bg-pink p-3 rounded-lg drop-shadow-lg w-full'>
             <h2 class="font-Inter font-semibold text-base px-5 py-3 border-b border-primary">
                 Promo Bulan ini !
             </h2>

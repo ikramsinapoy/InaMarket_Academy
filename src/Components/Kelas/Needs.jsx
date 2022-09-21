@@ -5,9 +5,9 @@ import { BsFileEarmarkExcelFill } from 'react-icons/bs';
 
 function Needs() {
   return (
-    <div>
+    <div className='mb-8'>
         <div className='px-5 py-4 bg-white border border-[#e9ecef] rounded-lg drop-shadow-lg'>
-            <h2 class="font-Inter font-semibold text-base py-3 border-b border-primary">
+            <h2 class="font-Inter font-semibold text-base pb-3 border-b border-primary">
                 Alat yang Dibutuhkan
             </h2>
 

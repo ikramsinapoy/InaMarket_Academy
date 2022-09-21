@@ -47,7 +47,7 @@ function Navbar() {
                             </li> */}
                             <li class="nav-item p-2">
                                 <Link to='/'>
-                                    <a class="nav-link text-gray font-semibold hover:text-gray-700 focus:text-gray-700 p-0" href="#">Beranda</a>
+                                    <a class="nav-link text-gray font-semibold hover:text-black focus:text-black active:text-black hover:text-gray-700 focus:text-gray-700 p-0" href="#">Beranda</a>
                                 </Link>
                             </li>
                             <li class="nav-item p-2">
@@ -57,7 +57,7 @@ function Navbar() {
                             </li>
                             <li class="nav-item p-2">
                                 <Link to="/aboutUs">
-                                    <a class="nav-link text-gray font-semibold hover:text-gray-700 focus:text-gray-700 p-0" href="#">Tentang Kami</a>
+                                    <a class="nav-link text-gray font-semibold hover:text-black focus:text-black active:text-black hover:text-gray-700 focus:text-gray-700 p-0" href="#">Tentang Kami</a>
                                 </Link>
                             </li>
                         </ul>
@@ -115,22 +115,22 @@ function Navbar() {
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item py-2 px-4 block w-full whitespace-nowrap bg-transparent font-Inter font-semibold text-black text-sm hover:bg-pink" href="#">
+                            <a class="dropdown-item py-2 px-4 block w-full whitespace-nowrap bg-transparent font-Inter font-semibold text-black text-sm hover:bg-pink" href="/kelas">
                                 <div className='flex gap-2 items-center'><BiBookAlt/> Kursus Saya</div>
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item py-2 px-4 block w-full whitespace-nowrap bg-transparent font-Inter font-semibold text-black text-sm hover:bg-pink" href="#">
+                            <a class="dropdown-item py-2 px-4 block w-full whitespace-nowrap bg-transparent font-Inter font-semibold text-black text-sm hover:bg-pink" href="/my-profile">
                                 <div className='flex gap-2 items-center'><BsPerson/> Profil</div>
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item py-2 px-4 block w-full whitespace-nowrap bg-transparent font-Inter font-semibold text-black text-sm hover:bg-pink" href="#">
+                            <a class="dropdown-item py-2 px-4 block w-full whitespace-nowrap bg-transparent font-Inter font-semibold text-black text-sm hover:bg-pink" href="/message">
                                 <div className='flex gap-2 items-center'><BiMessageDetail/> Pesan</div>
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item py-2 px-4 block w-full whitespace-nowrap bg-transparent font-Inter font-semibold text-black text-sm hover:bg-pink" href="#">
+                            <a class="dropdown-item py-2 px-4 block w-full whitespace-nowrap bg-transparent font-Inter font-semibold text-black text-sm hover:bg-pink" href="/setting">
                                 <div className='flex gap-2 items-center'><RiSettings5Fill/> Pengaturan</div>
                             </a>
                         </li>
@@ -195,7 +195,7 @@ function Navbar() {
                             bg-transparent
                             text-gray-700
                             hover:bg-gray-100
-                            " href="#">Action</a>
+                            " href="/notification">Action</a>
                         </li>
                         <li>
                             <a class="
