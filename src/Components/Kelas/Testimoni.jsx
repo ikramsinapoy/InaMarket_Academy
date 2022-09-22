@@ -48,6 +48,16 @@ function Testimoni() {
             speed= {500}
             slidesToShow= {2}
             slidesToScroll= {1}
+            responsive= {
+                [
+                      {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 1,
+                        }
+                    }
+                ]
+            }
           >
             <div key={1}>
               <div className='border border-[#E0E0E0] rounded-lg p-2 lg:p-5 mr-3'>
@@ -142,12 +152,6 @@ function Testimoni() {
 
                 <p className='font-Inter text-gray text-sm'>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the"</p>
               </div>
-            </div>
-            <div key={5}>
-                <h3>5</h3>
-            </div>
-            <div key={6}>
-                <h3>6</h3>
             </div>
           </Slider>
         </div>

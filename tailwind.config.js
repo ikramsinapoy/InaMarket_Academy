@@ -10,6 +10,9 @@ module.exports = {
        Montserrat: ['Montserrat', "sans-serif"],
        Inter: ['Inter', "sans-serif"],
       },
+      backgroundImage: {
+         'class': "url('/src/Asset/class.jpg')",
+      },
     },
      colors: {
       'primary': '#C30010',
