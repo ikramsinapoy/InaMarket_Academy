@@ -4,7 +4,6 @@ import Breadcrumbs from '../Components/Kelas/Breadcrumbs'
 import CardDetailClass from '../Components/Kelas/CardDetailClass'
 import ClassInformation from '../Components/Kelas/ClassInformation'
 import Needs from '../Components/Kelas/Needs'
-import ProgresBar from '../Components/Kelas/ProgresBar'
 import Testimoni from '../Components/Kelas/Testimoni'
 import Footer from '../Components/Navigation/Footer'
 import Navbar from '../Components/Navigation/Navbar'
@@ -16,20 +15,19 @@ function DetailClass() {
         <div className='w-11/12 xl:w-9/12 mx-auto my-10'>
             <Breadcrumbs/>
             <CardDetailClass/>
-            <div className='flex justify-between'>
-              <div className='w-4/6'>
+            <div className='flex flex-col 2xl:flex-row justify-between mb-10 2xl:mb-0'>
+              <div className='2xl:w-4/6 mb-10 2xl:mb-0'>
                 <ClassInformation/>
-                <Testimoni/>
               </div>
               
-              <div className='w-1/4'>
-                <ProgresBar/>
+              <div className='2xl:w-1/4'>
                 <Needs/>
                 <Benefit/>
               </div>
-              
             </div>
-            
+            <div className='2xl:w-4/6'>
+              <Testimoni/>
+            </div>
         </div>
         <Footer/>
     </div>
