@@ -25,7 +25,7 @@ function CardDetailClass() {
                 <div className="flex items-center gap-1">
                     <AiOutlineClockCircle className="fill-primary"/>
                     <p className="text-sm">52 Jam</p>
-                </div>
+                </div> 
 
                 <div className="flex items-center gap-1">
                     <BiBook className="fill-primary"/>

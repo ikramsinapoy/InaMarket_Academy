@@ -17,12 +17,12 @@ function Category() {
             </div>
             
 
-            <div>
+            {/* <div>
               <div class="columns-3xs">
                 <img class="w-full aspect-video" src={antMan} />
                 <img class="w-full aspect-square" src={deadPool} />
               </div>
-            </div>
+            </div> */}
           </div>
             
 

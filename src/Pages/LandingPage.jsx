@@ -13,7 +13,7 @@ function LandingPage() {
   return (
     <div>
         <Navbar/>
-        <div className='w-11/12 xl:w-9/12 mx-auto my-20'>
+        <div className='w-11/12 xl:w-5/6 2xl:w-9/12 mx-auto my-20'>
           <MainInfo/>
           <Reason/>
           <MainFeature/>

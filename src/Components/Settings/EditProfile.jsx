@@ -18,16 +18,16 @@ function EditProfile() {
                     <IoMdPerson className='fill-gray'/>
                 </div>
 
-                <div className='w-1/2'>
+                <div className='sm:w-2/3 2xl:w-1/2'>
                     <p className='text-gray text-sm mb-3'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text It is a long established.</p>
-                    <button className='bg-primary rounded-md p-2 text-white px-10'>Pilih Foto Profil</button>
+                    <button className='bg-primary rounded-md p-2 text-white px-5 xl:px-10'>Pilih Foto Profil</button>
                 </div>
             </div>
 
             <form>
                 <div className='mb-3'>
                     <p className='text-sm font-Inter text-black font-semibold mb-3'>Nama</p>
-                    <div className='flex gap-4'>
+                    <div className='flex flex-col md:flex-row gap-4'>
                         <input placeholder='Ikram' type="text" name='email' className='p-2 border border-[#D9D9D9] rounded-md w-full'/>
                         <input placeholder='Sinapoy' type="text" name='email' className='p-2 border border-[#D9D9D9] rounded-md w-full'/>
                     </div>

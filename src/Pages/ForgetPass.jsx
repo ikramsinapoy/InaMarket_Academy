@@ -7,8 +7,8 @@ function ForgetPass() {
   return (
     <div>
         <Navbar/>
-        <div className='md:flex items-center w-11/12 md:w-9/12 mx-auto my-10 md:mb-0'>
-            <img src={forgetPassImg} className='mb-10 md:mb-0 md:w-1/2'/>
+        <div className='xl:flex items-center justify-center w-11/12 xl:w-9/12 mx-auto my-10 md:mb-0'>
+            <img src={forgetPassImg} className='mb-10 xl:mb-0 md:w-1/2 mx-auto xl:mx-0'/>
             <FormForgetPass/>
         </div>
     </div>
