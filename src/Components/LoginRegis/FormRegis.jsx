@@ -11,7 +11,7 @@ function FormRegis() {
         setPasswordShown(!passwordShown);
     };
   return (
-    <div className='md:w-1/3 md:mx-auto'>
+    <div className='2xl:w-1/3 2xl:mx-auto'>
         <div className='mb-3'>
             <h2 class="font-Inter font-semibold text-lg mb-1.5 text-black">
                 Silahkan Daftar ke Ina Market Academy

@@ -13,7 +13,7 @@ function FormLogin() {
     };
     
     return (
-        <div className='md:w-1/3 md:mx-auto'>
+        <div className='2xl:w-1/3 2xl:mx-auto'>
             <div className='mb-4'>
                 <h2 class="font-Inter font-semibold text-lg mb-1.5 text-black">
                     Sign in to your account
@@ -21,7 +21,7 @@ function FormLogin() {
                 <p className="text-sm text-gray">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </div>
             
-            <div className='flex justify-between'>
+            <div className='flex gap-0.5 sm:gap-10 2xl:justify-between'>
                 <a className='p-2 bg-white border border-[#f1f3f5] rounded-md drop-shadow hover:cursor-pointer hover:drop-shadow-md text-black flex items-center gap-1'>Login dengan <FcGoogle/></a>
                 <a className='p-2 bg-white border border-[#f1f3f5] rounded-md drop-shadow hover:cursor-pointer hover:drop-shadow-md text-black'>Login dengan <span className='text-[#1877F2]'>Facebook</span></a>
             </div>

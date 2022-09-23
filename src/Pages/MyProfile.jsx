@@ -10,13 +10,13 @@ function MyProfile() {
   return (
     <div>
         <Navbar/>
-        <div className='w-11/12 md:w-9/12 mx-auto my-10'>
-            <div className='md:w-2/4 mx-auto mb-16'>
+        <div className='w-11/12 xl:w-5/6 2xl:w-9/12 mx-auto my-10'>
+            <div className='xl:w-2/4 mx-auto mb-16'>
                 <h3 className='font-semibold text-3xl mb-5 font-Montserrat text-center'>Profile Saya</h3>
                 <p className='text-gray font-Inter text-center'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text It is a long established fact that a reader.</p>
             </div>
 
-            <div className='flex gap-8 items-center'>
+            <div className='flex flex-col md:flex-row gap-8 items-center mb-5'>
                 <div className='w-48 h-48 bg-white rounded-lg drop-shadow-lg p-2 border border-[#f1f3f5]'>
                     <div className='bg-gray-light rounded-lg w-full h-full'></div>
                 </div>
@@ -31,7 +31,7 @@ function MyProfile() {
             </div>
 
             <div>
-                <ul class="nav nav-tabs flex flex-col md:flex-row flex-wrap list-none border-b border-gray-light pl-0 mb-4" id="tabs-tab"
+                <ul class="nav nav-tabs flex flex-row flex-wrap list-none border-b border-gray-light pl-0 mb-4" id="tabs-tab"
                     role="tablist">
                     <li class="nav-item" role="presentation">
                         <a href="#tabs-home" class="

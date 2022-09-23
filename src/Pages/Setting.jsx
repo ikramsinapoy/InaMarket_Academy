@@ -12,12 +12,12 @@ function Setting() {
   return (
     <div>
         <Navbar/>
-        <div className='w-11/12 md:w-9/12 mx-auto my-10'>
+        <div className='w-11/12 xl:w-5/6 2xl:w-9/12 mx-auto my-10'>
             <h2 class="font-Inter font-semibold text-xl pb-5">
                 Pengaturan
             </h2>
-            <div class="flex items-start gap-10">
-                <div className='bg-white rounded-lg drop-shadow-lg py-5 border border-[#f1f3f5] 2xl:w-1/3'>
+            <div class="flex flex-col 2xl:flex-row items-start gap-10">
+                <div className='bg-white rounded-lg drop-shadow-lg py-5 border border-[#f1f3f5] w-full 2xl:w-1/3'>
                     <h2 class="font-Inter font-semibold text-base pb-3 px-5 border-b border-primary">
                         Menu
                     </h2>
@@ -81,7 +81,7 @@ function Setting() {
                     </ul>
                 </div>
                 
-                <div class="tab-content" id="tabs-tabContentVertical">
+                <div class="tab-content w-full" id="tabs-tabContentVertical">
                     <div class="tab-pane fade show active" id="tabs-homeVertical" role="tabpanel"
                     aria-labelledby="tabs-home-tabVertical">
                         <EditProfile/>
